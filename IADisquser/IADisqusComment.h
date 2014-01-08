@@ -45,5 +45,8 @@
 @property (nonatomic, copy) NSString *ipAddress;
 
 @property (nonatomic, strong) NSNumber *threadID;
+@property (nonatomic, strong) NSNumber *parent;
+@property (nonatomic, strong) NSNumber *commentID;
+@property (nonatomic, strong) NSNumber *indentation;
 
 @end
